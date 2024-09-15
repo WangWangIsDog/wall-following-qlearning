@@ -24,7 +24,7 @@ catkin_make
 ### Download the Stingray Simulation Repository
 ```bash
 cd ~/catkin_ws/src
-git clone https://gitlab.com/HCRLab/stingray-robotics/stingray_sim.git
+git clone https://gitlab.com/peng-lab/stingray_sim.git
 ```
 
 ## Running the Simulation
