@@ -3,11 +3,8 @@ Implementation of robot wall following based on Q learning in both simulation an
 It's the final project for **NC State CSC591-Advanced Robotics** taught by Professor Gao Peng.
 
 # Demo
-<p float="left">
-  <img src="docs/img/simulation_demo.gif" width="45%" />
-  <img src="docs/img/real_world_demo.gif" width="45%" />
-</p>
-
+![Simulation](docs/img/simulation_demo.gif)
+![Real-world](docs/img/real_world_demo.gif)
 
 # Stingray Simulation Package
 This package contains the triton robot simulation package. 
