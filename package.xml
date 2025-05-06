@@ -1,19 +1,24 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>stingray_sim</name>
-  <version>0.0.0</version>
-  <description>The stingray_sim package</description>
+  <version>0.1.0</version>
+  <description>
+	A ROS package for right-wall following using LiDAR sensor data.
+	This package provides a demonstration of an autonomous mobile robot
+	that maintains a fixed distance from a right-side wall in a simulated
+	Gazebo environment.
+  </description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="kristin@todo.todo">kristin</maintainer>
+  <maintainer email="lzheng26@ncsu.edu">Lixing Zheng</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>TODO</license>
+  <license>MIT</license>
 
 
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
