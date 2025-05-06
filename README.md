@@ -3,7 +3,10 @@ Implementation of robot wall following based on Q learning in both simulation an
 It's the final project for **NC State CSC591-Advanced Robotics** taught by Professor Gao Peng.
 
 # Demo
-![Simulation](docs/img/simulation_demo.gif)
+<p float="left">
+  <img src="docs/img/simulation_demo.gif" width="45%" />
+  <img src="docs/img/real_world_demo.gif" width="45%" />
+</p>
 
 
 # Stingray Simulation Package
