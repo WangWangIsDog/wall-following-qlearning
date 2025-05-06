@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stingray Simulation Package
 This package contains the triton robot simulation package. 
 
@@ -47,3 +48,7 @@ Gazebo and RViz will also automatically launch, as well as some helper nodes for
 There is also an optional `teleop_robot.py` file to manually control the robot which publishes directly to the `/cmd_vel` topic. 
 
 You can optionally use `catkin build` instead of `catkin_make` so that only newly updated ROS packages get recompiled faster. You may need to delete `catkin_ws/devel` and `catkin_ws/build` to switch between the two commands. 
+=======
+# wall-following-qlearning
+Implementation of robot wall following based on Q learning in both simulation and real-world
+>>>>>>> 39e13e75bd00734fada5c476f181f2a9a2379e6b
