@@ -2,7 +2,7 @@
 Implementation of **robot wall following** based on **Q learning** in both simulation and real-world.   
 It's the final project for **NC State CSC591-Advanced Robotics** taught by Professor Gao Peng in Spring25 term.
 * We use Triton as the robot both for simulation and real-world.  
-* The project is built from Stingray Simulation package.
+* The project is built from Stingray Simulation Package which you can check its usage from below related section.
 * Codes mainly lie in */scripts/q_td.py*.
 
 ## Demo
@@ -13,9 +13,9 @@ It's the final project for **NC State CSC591-Advanced Robotics** taught by Profe
 Please follow *How_To_Run_Wall_Following.txt*.
 
 ## How to test in real-world
-You need to adjust the code for 1) LiDAR 2) Motor (action).  
-In our case, we adjust the LiDAR beam for front, left right, right-front since Triton in real-world uses a LiDAR with 1947 beams while in simulation it has 360 beams. In addition, Triton in real-world suffers from left drifting when moving,  
-thus we do a software calibration by adding an appropriate right turn to all actions.
+You need to adjust the code for 1) LiDAR (perceptions); 2) Motor (actions).    
+In our case, we adjust the LiDAR beam for front, left, right, right-front since Triton in real-world uses a LiDAR with 1947 beams while in simulation it has 360 beams.   
+In addition, Triton in real-world suffers from left drifting when moving, thus we do a software calibration by adding an small right turn to all actions (foward, left turn, right turn).
 
 ----------
 
